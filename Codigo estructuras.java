@@ -28,7 +28,36 @@ public class Main{
 
 
 		// 4. Solicitud de datos 
-		
+		Scanner scn new Scanner(System.in);
+
+		System.out.println("Escribe una cadena:");
+		String cadena = scn.nextLine();
+
+		System.out.println("Escribe una numero entero:");
+		int entero = scn.nextInt();
+
+		System.out.println("Escribe un numero decimal:");
+		double decimal = scn.nextDouble();
+
+		System.out.println("numero decimal guardado"+ decimal);
+		System.out.println("numero entero guardado"+ entero);
+		System.out.println("cadena guardada"+ cadena);
+
+		// 5- Boolean, operadores logico y de comparacion 
+		System.out.println(10 > 9);
+		System.out.println(10 == 9);
+		System.out.println(10 < 9);
+		System.out.println(10 >= 9);
+		System.out.println(10 <= 9);
+		System.out.println(10 != 9);
+
+		// operadores logicos
+		int x= 3;
+		System.out.println(x< 5 && x >10);
+		System.out.println(x< 5 || x >10);
+		System.out.println(!(x<5 && x>10));
+		System.out.println(!(x<5 || x>10));
+
 
 
 	}
